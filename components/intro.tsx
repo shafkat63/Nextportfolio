@@ -19,7 +19,7 @@ const Intro = () => {
 						}}
 					>
 						<Image
-							src="/shafkatnextS.jpeg"
+							src="/shafkat3.jpg"
 							width="192"
 							height="192"
 							alt="Picture of the shafkat"
