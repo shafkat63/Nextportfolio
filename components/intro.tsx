@@ -5,9 +5,16 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import { BsArrowRight, BsGithub, BsLinkedin } from "react-icons/bs";
 import { HiDownload } from "react-icons/hi";
+import { useSectionInView } from "@/lib/hooks";
 const Intro = () => {
+	const { ref } = useSectionInView("Home", 0.5);
+
 	return (
-		<section className="mb-28 max-w-[50rem] text-center sm:mb-0 ">
+		<section
+			ref={ref}
+			id="home"
+			className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]"
+		>
 			<div className="flex items-center justify-center">
 				<div className="relative">
 					<motion.div
@@ -73,16 +80,15 @@ const Intro = () => {
 					<BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
 				</Link>
 
-
 				<a
 					href="/MuhtasirShafkat.pdf"
 					download
 					className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none 
 					focus:scale-110 hover:scale-110  active:scale-105 transition border border-black/10"
 				>
-					Download CV <HiDownload className="opacity-70 group-hover:translate-y-1 transition" />
+					Download CV{" "}
+					<HiDownload className="opacity-70 group-hover:translate-y-1 transition" />
 				</a>
-
 
 				<a
 					href="https://www.linkedin.com/in/shafkat63/"
@@ -92,7 +98,6 @@ const Intro = () => {
 				>
 					<BsLinkedin />
 				</a>
-
 
 				<a
 					href="https://github.com/shafkat63"

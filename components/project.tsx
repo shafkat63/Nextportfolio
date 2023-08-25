@@ -24,7 +24,8 @@ const Project = ({ title, description, tags, imageUrl }: ProjectProps) => {
          overflow-hidden sm:pr-8 relative sm:h-[20rem] 
          group-even:pl-8 hover:bg-gray-200 transition
          "
-			>
+			
+            >
 				<div
 					className="pt-4 pb-7 px-5 sm:pl-10 sm:pr-2 sm:pt-10 sm:max-w-[50%] 
             flex flex-col h-full group-even:ml-[18rem]"
