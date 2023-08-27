@@ -2,7 +2,8 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
+import newsRoomCMS from "@/public/newsRoomCMS.jpg";
+import SubscriptionBox from "@/public/subscriptionBox.jpg"
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
 
@@ -62,18 +63,18 @@ export const experiencesData = [
 
 export const projectsData = [
 	{
-		title: "CorpComment",
+		title: "newsRoomCMS",
 		description:
-			"I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-		tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-		imageUrl: corpcommentImg,
+			"I worked as a full-stack developer on this startup project.It was build on MERN stack.It's a factCheck website made for factwatchBD(CQS).",
+		tags: ["MongoDB", "Express", "React", "Node.js", "MUI"],
+		imageUrl: newsRoomCMS,
 	},
 	{
-		title: "rmtDev",
+		title: "SubscriptionBox",
 		description:
-			"Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-		tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-		imageUrl: rmtdevImg,
+			"It was e FullProject build with PHP. I build it for Web Technology course. ",
+		tags: ["HTML", "CSS", "JavaScript", "PHP", "Bootstrape"],
+		imageUrl: SubscriptionBox,
 	},
 	{
 		title: "Word Analytics",
