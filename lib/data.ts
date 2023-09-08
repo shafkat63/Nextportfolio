@@ -4,8 +4,8 @@ import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import newsRoomCMS from "@/public/newsRoomCMS.jpg";
 import SubscriptionBox from "@/public/subscriptionBox.jpg"
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import Ulabrp from "@/public/ulabrp.jpg"
+
 
 export const links = [
 	{
@@ -43,21 +43,21 @@ export const experiencesData = [
 		icon: React.createElement(LuGraduationCap),
 		date: "02/02/2023",
 	},
-	{
-		title: "Front-End Developer",
-		location: "Orlando, FL",
-		description:
-			"I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-		icon: React.createElement(CgWorkAlt),
-		date: "2023 - present",
-	},
+	// {
+	// 	title: "Front-End Developer",
+	// 	location: "Orlando, FL",
+	// 	description:
+	// 		"I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+	// 	icon: React.createElement(CgWorkAlt),
+	// 	date: "2023 - present",
+	// },
 	{
 		title: "Full-Stack Developer",
-		location: "Houston, TX",
+		location: "Dhaka, Bangladesh",
 		description:
 			"I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
 		icon: React.createElement(FaReact),
-		date: "2021 - present",
+		date: "2023 - present",
 	},
 ] as const;
 
@@ -77,11 +77,11 @@ export const projectsData = [
 		imageUrl: SubscriptionBox,
 	},
 	{
-		title: "Word Analytics",
+		title: "ULAB Publication Reward",
 		description:
-			"A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-		tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-		imageUrl: wordanalyticsImg,
+			"A private web app for ULAB research publication. It's for ulab faculty and research work.",
+		tags: ["Laravel", "Blade", "SQL", "Tailwind", "Filament"],
+		imageUrl: Ulabrp,
 	},
 ] as const;
 
